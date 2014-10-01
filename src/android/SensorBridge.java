@@ -11,7 +11,7 @@ import android.content.Intent;
 
 public class SensorBridge extends CordovaPlugin {
 	
-	public static final String ACTION_CALL_ECHO = "echo";
+//	public static final String ACTION_CALL_ECHO = "echo";
 	
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
