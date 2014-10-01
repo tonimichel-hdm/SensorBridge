@@ -19,7 +19,7 @@ public class SensorBridge extends CordovaPlugin {
 			String message = args.getString(0);
 			String attachment = ": ... it really went full circle!";
 			message += attachment;
-			this.echo( message );
+			this.echo( message, callbackContext );
 			return true;
 		}
 	}
