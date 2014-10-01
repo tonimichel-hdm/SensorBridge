@@ -28,11 +28,8 @@ public class SensorBridge extends CordovaPlugin {
 	private void echo (String message, CallbackContext callbackContext) {
 		if( message != null && message.length() > 0 ) {
 			callbackContext.success( message );
-			return true;
 		} else {
 			callbackContext.error("Expected non-empty string argument.");
-			return false;
 		}
 	}
-	
 }
