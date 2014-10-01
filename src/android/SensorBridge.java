@@ -1,4 +1,4 @@
-package org.tonimichelhdm.sensorbridge;
+package org.tonimichel.sensorbridge;
  
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
