@@ -16,6 +16,7 @@ public class SensorBridge extends CordovaPlugin {
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		//String message = args.getString(0);
+		String message = "this is a test";
 		this.echo( "this is a test", callbackContext );
 		return true;
 	}
