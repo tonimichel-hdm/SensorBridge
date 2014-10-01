@@ -15,14 +15,10 @@ public class SensorBridge extends CordovaPlugin {
 	
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-		if(ACTION_CALL_ECHO.equals(action)) {
-			String message = args.getString(0);
-			String attachment = ": ... it really went full circle!";
-			message += attachment;
-			this.echo( message, callbackContext );
-			return true;
-		}
-		return false;
+		String message = args.getString(0);
+		String attachment = ": ... it really went full circle!";
+		this.echo( message, callbackContext );
+		return true;
 	}
 	
 	private void echo (String message, CallbackContext callbackContext) {
