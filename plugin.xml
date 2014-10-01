@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="org.tonimichel.sensorbridge"
       version="0.1.0">
-    <name>Calendar</name>
+    <name>SensorBridge</name>
     <description>Phonegap Sensor API</description>
     <license>MIT</license>
     <keywords>phonegap,sensors</keywords>
